@@ -13,7 +13,7 @@ public class DataBaseError {
             system.debug('I am Successfully inserted And my id is => ' + s.getId());
         }
         else {
-            system.debug('I was unsuccessfull due to some reason thats it for me now');
+            system.debug('I was unsuccessfull due to some reason and now changing ');
      		for(Database.Error err : s.getErrors())
             {
                 system.debug(err.getstatuscode() + '  ' + err.getmessage() + ' ' + err.getFields());
